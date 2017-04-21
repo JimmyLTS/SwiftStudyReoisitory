@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FDDF4E601E556BC300464926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDF4E5F1E556BC300464926 /* AppDelegate.swift */; };
-		FDDF4E621E556BC300464926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDF4E611E556BC300464926 /* ViewController.swift */; };
+		FDDF4E621E556BC300464926 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDF4E611E556BC300464926 /* MyViewController.swift */; };
 		FDDF4E651E556BC300464926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDF4E631E556BC300464926 /* Main.storyboard */; };
 		FDDF4E671E556BC300464926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDF4E661E556BC300464926 /* Assets.xcassets */; };
 		FDDF4E6A1E556BC300464926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDF4E681E556BC300464926 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		FDDF4E5C1E556BC300464926 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDF4E5F1E556BC300464926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FDDF4E611E556BC300464926 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDDF4E611E556BC300464926 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		FDDF4E641E556BC300464926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDDF4E661E556BC300464926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDDF4E691E556BC300464926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				FDDF4E5F1E556BC300464926 /* AppDelegate.swift */,
-				FDDF4E611E556BC300464926 /* ViewController.swift */,
+				FDDF4E611E556BC300464926 /* MyViewController.swift */,
 				FDDF4E631E556BC300464926 /* Main.storyboard */,
 				FDDF4E661E556BC300464926 /* Assets.xcassets */,
 				FDDF4E681E556BC300464926 /* LaunchScreen.storyboard */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDDF4E621E556BC300464926 /* ViewController.swift in Sources */,
+				FDDF4E621E556BC300464926 /* MyViewController.swift in Sources */,
 				FDDF4E601E556BC300464926 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,12 +277,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XDK267KQ83;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jimmylts.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7e67f3f7-3099-43e9-9307-e63a9ccb9e01";
+				PROVISIONING_PROFILE_SPECIFIER = "XC Wildcard *";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -306,6 +308,7 @@
 				FDDF4E701E556BC300464926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
